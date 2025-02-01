@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.parent{
+    font-family: "Poppins", serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    width: 20%;
+}
+.menu{
+    width: 60%;
+    
+}
+.menu ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 100px;
+}
+.menu li{
+    list-style: none;
+}
+.menu li:hover{
+    color: blue;
+}
+.btngroup{
+    width: 20%;
+    display: flex;
+    gap: 10px;
+    padding-right: 60px;
+}
+.btngroup button{
+    height: 30px;
+    width: 35%;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(94, 94, 245);
+    color: white;
+    font-weight: 700;
+   margin-top: 10px;
+}
+button:hover{
+    background-color: navy;
+}
+.herosection{
+    margin-top: 150px;
+}
+.herosectionrow{
+    display: flex;
+    gap: 100px;
+}
+.herocolumn1{
+    width: 50%;
+}
+.herocolumn1 h1{
+    font-size: 45px;
+}
+.herocolumn1 button{
+height: 50px;
+background-color: rgb(68, 68, 250);
+width: 30%;
+border: none;
+border-radius: 30px;
+margin-top: 30px;
+color: white;
+font-weight: 700;
+}
+button:hover{
+    background-color: navy;
+}
+.herocolum2{
+width: 50%;
+
+}
+.cardstack{
+   position: relative;
+   background-color: transparent;
+}
+.card{
+    height: 50px;
+    width: 200%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+ align-items: center;
+ border-radius: 10px;
+   margin-bottom: 15px;
+   background-color: white;
+   
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card:hover{
+    background-color: antiquewhite;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+
+
+}
+.row3{
+    margin-top: 200px;
+    display: flex;
+    gap: 20px;
+}
+.minicard{
+    width: 22%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.minicard:hover{
+
+background-color:antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.row4{
+    margin-top: 200px;
+    display: flex;
+
+}
+.row4c1{
+    width: 50%;
+}
+.row4c2{
+    width: 50%;
+}
+.row5{
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+}
+.row5card{
+    height: 300px;
+    width: 25%;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.row5card:hover{
+    background-color: antiquewhite;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+
+
+
+}
+.row5card p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.row6{
+    margin-top: 200px;
+    text-align: center;
+}
+.row6 button{
+    width: 15%;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(49, 49, 250);
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    margin-top: 20px;
+    
+}
+button:hover{
+    background-color: navy;
+}
+.footer{
+    margin-top: 300px;
+    display: flex;
+    gap: 80px;
+}
+.footer img{
+    height: 40px;
+    width: 25%;
+}
+.fc2 p{
+    margin-bottom: 20px;
+}
